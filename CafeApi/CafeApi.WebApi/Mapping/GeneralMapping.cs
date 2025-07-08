@@ -2,6 +2,7 @@
 using AutoMapper.Features;
 using CafeApi.WebApi.DTOs.FeatureDTOs;
 using CafeApi.WebApi.DTOs.MessageDTOs;
+using CafeApi.WebApi.DTOs.ProductDTOs;
 using CafeApi.WebApi.Entities;
 
 namespace CafeApi.WebApi.Mapping
@@ -19,6 +20,10 @@ namespace CafeApi.WebApi.Mapping
             CreateMap<Message, UpdateMessageDTO>().ReverseMap();
             CreateMap<Message, GetByIdMessageDTO>().ReverseMap();
             CreateMap<Message, CreateMessageDTO>().ReverseMap();
+
+            CreateMap<Product, CreateProductDTO>().ReverseMap();
+            CreateMap<Product, ResultProductWithCatagoryDTO>().
+                ForMember(x => x.CatagoryName, y => y.MapFrom(z => z.Catagory.CatagoryName)).ReverseMap();
         }
     }
 }

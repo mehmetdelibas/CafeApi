@@ -198,6 +198,9 @@ namespace CafeApi.WebApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
+                    b.Property<int?>("CatagoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -214,6 +217,8 @@ namespace CafeApi.WebApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ProductId");
+
+                    b.HasIndex("CatagoryId");
 
                     b.ToTable("Products");
                 });
@@ -313,6 +318,20 @@ namespace CafeApi.WebApi.Migrations
                     b.HasKey("TestimonialId");
 
                     b.ToTable("Testimonials");
+                });
+
+            modelBuilder.Entity("CafeApi.WebApi.Entities.Product", b =>
+                {
+                    b.HasOne("CafeApi.WebApi.Entities.Catagory", "Catagory")
+                        .WithMany("Products")
+                        .HasForeignKey("CatagoryId");
+
+                    b.Navigation("Catagory");
+                });
+
+            modelBuilder.Entity("CafeApi.WebApi.Entities.Catagory", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
