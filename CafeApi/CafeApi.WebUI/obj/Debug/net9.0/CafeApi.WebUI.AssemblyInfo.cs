@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeApi.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40be4c65e69ceccb0c21d96f3bb4f759ec9a1f8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3c13fe2cbeca1b443c81acad749d9245914b3e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeApi.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeApi.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

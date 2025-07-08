@@ -40,12 +40,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Components/AboutDefaultBoardComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXREZWZhdWx0Qm9hcmRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Components/FeatureDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmVhdHVyZURlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Components/HeadDefaultCompenentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZERlZmF1bHRDb21wZW5lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Components/NavbarDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyRGVmYXVsdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Components/ServicesDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mertcan/Masaüstü/CafeApi/CafeApi/CafeApi.WebUI/Views/Shared/Error.cshtml]
